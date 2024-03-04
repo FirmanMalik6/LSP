@@ -63,7 +63,7 @@ class SiswaController extends Controller
 
     public function destroy(Siswa $siswa)
     {
-        $nilai = Nilai::where('siswa_id', $siswa->id) ->first();
+        $nilai = Nilai::where('siswa_id', $siswa->id)->first();
 
         if($nilai) {
             return back()->with('error', "$siswa->nama_siswa masih digunakan di menu nilai");
