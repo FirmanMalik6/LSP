@@ -10,7 +10,7 @@
         <form action="/kelas/update/{{ $kelas->id }}" method="POST">
             @csrf
             <tr>
-                <label for="nip">NIP</label>
+                <label for="kelas">Kelas</label>
                 <select name="kelas" id="kelas">
                     @foreach ($tingkat_kelas as $k)
                         @if ($kelas->kelas == $k)
