@@ -14,13 +14,11 @@
             @endif
             <table class="table-data">
                 <thead>
-                    <tr>
-                        <th>NO</th>
-                        <th>GURU</th>
-                        <th>MATA PELAJARAN</th>
-                        <th>KELAS</th>
-                        <th>ACTION</th>
-                    </tr>
+                    <th>NO</th>
+                    <th>GURU</th>
+                    <th>MATA PELAJARAN</th>
+                    <th>KELAS</th>
+                    <th>ACTION</th>
                 </thead>
                 <tbody>
                     @foreach ($mengajar as $meng)

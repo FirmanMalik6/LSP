@@ -18,19 +18,17 @@
             @endif
             <table class="table-data">
                 <thead>
-                    <tr>
-                        <th>NO</th>
-                        <th>Guru</th>
-                        <th>Mapel</th>
-                        <th>Nama Siswa</th>
-                        <th>UH</th>
-                        <th>UTS</th>
-                        <th>UAS</th>
-                        <th>NA</th>
-                        @if (session('role') == 'guru')
-                            <th>Action</th>
-                        @endif
-                    </tr>
+                    <th>NO</th>
+                    <th>Guru</th>
+                    <th>Mapel</th>
+                    <th>Nama Siswa</th>
+                    <th>UH</th>
+                    <th>UTS</th>
+                    <th>UAS</th>
+                    <th>NA</th>
+                    @if (session('role') == 'guru')
+                        <th>Action</th>
+                    @endif
                 </thead>
                 <tbody>
                     @foreach ($nilai as $each)

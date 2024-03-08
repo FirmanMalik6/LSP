@@ -14,16 +14,14 @@
             @endif
             <table class="table-data">
                 <thead>
-                    <tr>
-                        <th>NO</th>
-                        <th>NIS</th>
-                        <th>Nama Siswa</th>
-                        <th>Jenis Kelamin</th>
-                        <th>Alamat</th>
-                        <th>Kelas</th>
-                        <th>Password</th>
-                        <th>Action</th>
-                    </tr>
+                    <th>NO</th>
+                    <th>NIS</th>
+                    <th>Nama Siswa</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Alamat</th>
+                    <th>Kelas</th>
+                    <th>Password</th>
+                    <th>Action</th>
                 </thead>
                 <tbody>
                     @foreach ($siswa as $s)

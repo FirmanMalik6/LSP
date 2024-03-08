@@ -14,11 +14,9 @@
             @endif
             <table class="table-data">
                 <thead>
-                    <tr>
-                        <th>NO</th>
-                        <th>Mata Pelajaran</th>
-                        <th>Action</th>
-                    </tr>
+                    <th>NO</th>
+                    <th>Mata Pelajaran</th>
+                    <th>Action</th>
                 </thead>
                 <tbody>
                     @foreach ($mapel as $m)

@@ -14,13 +14,11 @@
             @endif
             <table class="table-data">
                 <thead>
-                    <tr>
-                        <th>NO</th>
-                        <th>Kelas</th>
-                        <th>Jurusan</th>
-                        <th>Rombel</th>
-                        <th>Action</th>
-                    </tr>
+                    <th>NO</th>
+                    <th>Kelas</th>
+                    <th>Jurusan</th>
+                    <th>Rombel</th>
+                    <th>Action</th>
                 </thead>
                 <tbody>
                     @foreach ($kelas as $k)

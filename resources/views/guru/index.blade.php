@@ -14,15 +14,13 @@
             @endif
             <table class="table-data">
                 <thead>
-                    <tr>
-                        <th>NO</th>
-                        <th>NIP</th>
-                        <th>Nama Guru</th>
-                        <th>Jenis Kelamin</th>
-                        <th>Alamat</th>
-                        <th>Password</th>
-                        <th>Action</th>
-                    </tr>
+                    <th>NO</th>
+                    <th>NIP</th>
+                    <th>Nama Guru</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Alamat</th>
+                    <th>Password</th>
+                    <th>Action</th>
                 </thead>
                 <tbody>
                     @foreach ($guru as $g)
